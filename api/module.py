@@ -16,7 +16,8 @@ def gpt_answer(message):
         )
         return response.choices[0].message.content + "\n[Current model: FXT feat Gemini]"
 
-    except Exception:
+    except Exception as e:
+        print(f"An error occurred: {e}")
         response = Client(provider=RetryProvider([Blackbox, FreeGpt])).chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": message}]
