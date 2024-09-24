@@ -7,7 +7,7 @@ def gpt_answer(message):
     try:
         set_cookies(".google.com", {
             "__Secure-1PSID": os.getenv('Secure1PSID')
-            # "__Secure-1PSIDTS": os.getenv('Secure1PSIDTS')
+            "__Secure-1PSIDTS": os.getenv('Secure1PSIDTS')
         })
 
         response = Client(provider=Gemini).chat.completions.create(
