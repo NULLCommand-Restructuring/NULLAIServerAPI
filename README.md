@@ -1,6 +1,6 @@
 # NULL AI Server API
 
-This project is a simple Flask server to handle API requests (primarily created to serve my [ChatFXT](https://github.com/NULLCommand-Restructuring/ChatFXT) project). It includes 3 main API endpoints to handle user requests: the first is to provide a brief response, the second is to provide a more detailed response using generative text models like GPT, Google PaLM, etc., and the last is to provide image responses from Bing Image Creator. It is based on the core support library [gpt4free](https://github.com/xtekky/).
+This project is a simple Flask server to handle API requests (primarily created to serve my [ChatFXT](https://github.com/NULLCommand1/ChatFXT) project). It includes 3 main API endpoints to handle user requests: the first is to provide a brief response, the second is to provide a more detailed response using generative text models like GPT, Google PaLM, etc., and the last is to provide image responses from Bing Image Creator. It is based on the core support library [gpt4free](https://github.com/xtekky/).
 
 ## Project Structure
 
@@ -75,7 +75,7 @@ vercel.json
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/NULLCommand-Restructuring/NULLAIServerAPI.git
+   git clone https://github.com/NULLCommand1/NULLAIServerAPI.git
    cd NULLAIServerAPI
    ```
 
@@ -104,7 +104,7 @@ We welcome contributions from the community! If you would like to contribute to 
 2. **Clone Your Fork**: Clone the forked repository to your local machine using the following command:
 
  ```bash
-   git clone https://github.com/NULLCommand-Restructuring/NULLAIServerAPI.git
+   git clone https://github.com/NULLCommand1/NULLAIServerAPI.git
    cd NULLAIServerAPI
    ```
 
